@@ -1,5 +1,7 @@
 # KICAD_Footprints
-Custom Footprints for Kicad 7. Details, see blog post:
+Custom, modified, and unusual Footprints used in my Kicad 7 projects.
+
+Details, please see the blog post:
 https://audiodiwhy.blogspot.com/2023/09/kicad-making-switch.html
 
-drop these into a custom "dot pretty" folder
+TO USE: drop these into a custom "dot pretty" folder and add the library to Kicad.
