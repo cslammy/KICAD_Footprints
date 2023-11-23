@@ -1,5 +1,6 @@
 (footprint "JACK Thonk 3.5mm THT CL" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (descr "3.5mm PCB mount vertical Jack pinned 1-GND 3-SWITCH 2-TIP")
   (property "Sheetfile" "reneadsr 9-5-23.kicad_sch")
   (property "Sheetname" "")
   (attr through_hole)

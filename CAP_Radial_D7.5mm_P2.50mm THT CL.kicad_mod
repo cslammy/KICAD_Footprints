@@ -11,7 +11,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp dd81a305-ee5f-412a-ab43-e075847e4329)
   )
-  (fp_text value "22uF" (at 1.25 5) (layer "F.Fab")
+  (fp_text value "CAP_Radial THT CL" (at 1.25 5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp aee5e2c4-37aa-46a7-af5b-724e872a309c)
   )
