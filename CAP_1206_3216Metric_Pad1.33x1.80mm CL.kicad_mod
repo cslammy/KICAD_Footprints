@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b407f268-daf0-4d1d-a344-899359edb348)
   )
-  (fp_text value "CAP_1206_3216Metric_Pad1.33x1.80mm CL" (at 0 1.85) (layer "F.Fab")
+  (fp_text value "CAP_1206_3216Metric_Pad1.33x1.80mm CL" (at 0 1.85) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d16e2670-786f-4e93-8805-45c64ffa3fdf)
   )

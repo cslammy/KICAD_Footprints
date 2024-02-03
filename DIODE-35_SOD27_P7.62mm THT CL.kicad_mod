@@ -13,7 +13,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a90d76dd-f1cd-469e-b875-26bb4a8b2487)
   )
-  (fp_text value "1N4148W" (at 3.81 2.12) (layer "F.Fab")
+  (fp_text value "1N4148W" (at 3.81 2.12) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3832ee0c-305b-469d-86f7-1466cc82f164)
   )
@@ -63,7 +63,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 93344001-c3b0-4f2a-8cd3-6f187b1ca677))
   (pad "1" thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp ad776ba6-e354-4061-b6e5-a61e34cbc432))
   (pad "2" thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 4c6b8fd4-1fa7-4530-be26-22d5cfabb6c6))
-  (model "${KICAD6_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl"
+  (model "${KICAD7_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

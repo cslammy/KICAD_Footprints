@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a0275656-ee77-4ef6-961d-741829c6d5ae)
   )
-  (fp_text value "TO-92L_Inline_Wide THT CL" (at 2.54 2.79) (layer "F.Fab")
+  (fp_text value "TO-92L_Inline_Wide THT CL" (at 2.54 2.79) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e50d001f-74a7-42a5-ab94-bf49f0f74536)
   )

@@ -11,7 +11,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b0be2fa9-3b6d-4f24-9c9b-bc2d383041af)
   )
-  (fp_text value "2N3904" (at 1.27 2.79) (layer "F.Fab")
+  (fp_text value "2N3904" (at 1.27 2.79) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0771ef6a-2d02-4b6b-b9f8-1bee9b3814f6)
   )

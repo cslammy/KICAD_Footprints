@@ -11,7 +11,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a90a4155-af01-42ff-aefc-7745f287aaa7)
   )
-  (fp_text value ".01uF" (at 2.5 2.2) (layer "F.Fab")
+  (fp_text value ".01uF" (at 2.5 2.2) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7764243f-b5c5-4f61-9bc1-deaa4821447c)
   )

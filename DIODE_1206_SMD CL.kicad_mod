@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b981a655-e808-4bc4-beba-0a02354c4ec1)
   )
-  (fp_text value "DIODE_1206_SMD CL" (at 0 1.82) (layer "F.Fab")
+  (fp_text value "DIODE_1206_SMD CL" (at 0 1.82) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 623943dc-94a0-46bd-aabf-3a2fa9504de8)
   )
