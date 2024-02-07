@@ -48,4 +48,9 @@
   (pad "2" thru_hole oval (at -1.08 -10.6 90) (size 2 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 3ba7836e-0113-459d-b8be-26c043bf686a))
   (pad "3" thru_hole oval (at 1.46 -10.6 90) (size 2 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp cac34eb8-6cd7-41a2-83f4-d96fbd50ad89))
   (pad "4" thru_hole oval (at 4 -10.6 90) (size 2 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 91d7ba64-b01c-40d5-b196-cda1c1ea0595))
+  (model "D:/Dropbox/KICAD/libraries/3D Freecad/OLED/OLED-SSD1306-128x64-i2c.step"
+    (offset (xyz -13.335 -15.875 0))
+    (scale (xyz 0.77 0.84 0.2001))
+    (rotate (xyz 0 0 0))
+  )
 )
