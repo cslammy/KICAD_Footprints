@@ -25,9 +25,4 @@
     (stroke (width 0.12) (type solid)) (fill none) (layer "F.Fab") (tstamp 052e5e46-b5a6-4952-b259-92ef7b543482))
   (pad "1" thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.1476) (layers "*.Cu" "*.Mask")
     (clearance 0.0762) (tstamp 3106b007-6df2-449f-8479-b49706f8155b))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.3mm_L11.0mm.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
