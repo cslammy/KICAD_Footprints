@@ -75,8 +75,8 @@
   (pad "SW1" thru_hole circle (at 14.5 0) (size 1.5 1.5) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 2de4f0d3-2cb7-466b-961b-c8445bbdbe23))
   (pad "SW2" thru_hole circle (at 14.5 5) (size 1.5 1.5) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 58370e4e-c40a-43ab-b4a1-4723ed5a6df5))
   (model "C:/Users/clamm/Downloads/Rotary.Encoder.step/Rotary Encoder.step"
-    (offset (xyz 0.635 -7.62 0))
-    (scale (xyz 1.1 1 1))
-    (rotate (xyz 90 0 0))
+    (offset (xyz 1.27 3.175 -0.635))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
   )
 )
