@@ -1,6 +1,6 @@
 (footprint "LED5MM" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "<B>LED</B><p>\n5 mm, round")
+  (descr "std 5mm THT LED")
   (fp_text reference "REF**" (at 3.175 -0.5334) (layer "F.SilkS")
       (effects (font (size 1.143 1.143) (thickness 0.127)) (justify left bottom))
     (tstamp 3c36a974-4c80-4b19-afe0-80bc7e486876)
@@ -33,4 +33,9 @@
   (pad "2" thru_hole roundrect (at 1.27 0) (size 1.3208 1.3208) (drill 0.8128) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25)
     (chamfer_ratio 0.2928932188) (chamfer top_left top_right bottom_left bottom_right)
     (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp dbbfe17c-71fe-4754-8db9-2480767783dc))
+  (model "D:/Dropbox/KICAD/libraries/3D Freecad/LED/LED_Round_Clear_D5.0mm.wrl"
+    (offset (xyz 1.27 0 -1.27))
+    (scale (xyz 1.1 1 0.7))
+    (rotate (xyz 0 0 -180))
+  )
 )
