@@ -1,5 +1,5 @@
 # KICAD_Footprints
-Custom, modified, and unusual Footprints used in my Kicad 7 projects.
+Custom, modified, and unusual Footprints used in my Kicad projects.
 
 Details, please see the blog post:
 https://audiodiwhy.blogspot.com/2023/09/kicad-making-switch.html
