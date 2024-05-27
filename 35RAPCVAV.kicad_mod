@@ -305,4 +305,15 @@
 		(thermal_bridge_angle 0)
 		(uuid "33e9e530-6156-4d30-8f6a-2b4001cebf77")
 	)
+	(model "D:/Dropbox/KICAD/libraries/3D Freecad/jacks/35RAP2AV_CD.wrl"
+		(offset
+			(xyz 6.35 1.905 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
