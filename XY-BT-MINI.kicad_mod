@@ -1,0 +1,146 @@
+(footprint "XY-BT-MINI"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0bf14cf9-1cad-4abe-9c46-4076b5cb63af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XY-BT-MINI"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2caa052b-34e5-4b8b-a74c-4505e60b2c82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "XY-BT-MINI"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25a5d574-7a5b-4065-aaaa-3688f8480c9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31e40fc4-b9cb-4ca4-b710-5e9d198c2d63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea0b64aa-2fc4-41ff-88ae-6e93e5a9f549")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -15 -15)
+		(end 15 15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e3a88ccf-6e76-46cd-8024-3556ebe2fb76")
+	)
+	(fp_text user "XY-BT-MINI"
+		(at -11.25 -10.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "05457d38-bf48-44c7-8e06-b10ee986d711")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user " Méiyǒu shùjù biǎo"
+		(at -3 11.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "227a2be5-2fb4-4ba3-aedb-0b8b20574f8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4a584b82-1687-447f-90d8-7f2d64d484f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -7)
+		(size 3 3)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "556319d9-6113-453e-b369-9be4b1e60fb9")
+	)
+	(pad "2" thru_hole circle
+		(at -12.25 12)
+		(size 3 3)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ac446792-64d0-4299-89c4-93f9bbb7f2b2")
+	)
+	(model "D:/Dropbox/KICAD/libraries/3D Freecad/BoBs/XY-BT-MINI.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
