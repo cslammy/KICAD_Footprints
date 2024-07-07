@@ -66,7 +66,7 @@
 	)
 	(fp_line
 		(start 1 -10.5)
-		(end 1 6)
+		(end 1 5)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -75,8 +75,8 @@
 		(uuid "e71b7dee-ba73-4f43-909d-610849575288")
 	)
 	(fp_line
-		(start 1 6)
-		(end 3 6)
+		(start 1 5)
+		(end 3 5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -95,8 +95,8 @@
 		(uuid "c1be3109-40f3-4293-a992-a9f8f52649c0")
 	)
 	(fp_line
-		(start 11 6)
-		(end 9 6)
+		(start 11 5)
+		(end 9 5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -105,7 +105,7 @@
 		(uuid "5a471930-3523-4285-94db-1b74743fd114")
 	)
 	(fp_line
-		(start 11 6)
+		(start 11 5)
 		(end 11 -10.5)
 		(stroke
 			(width 0.127)
@@ -116,7 +116,7 @@
 	)
 	(fp_rect
 		(start 0.635 -10.795)
-		(end 11.43 6.35)
+		(end 11.25 5.25)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -126,7 +126,7 @@
 		(uuid "237742ac-10bc-43b5-84b1-e8173108c617")
 	)
 	(fp_line
-		(start 3 6)
+		(start 3 5)
 		(end 3 7)
 		(stroke
 			(width 0.127)
@@ -217,7 +217,7 @@
 	)
 	(fp_line
 		(start 9 7)
-		(end 9 6)
+		(end 9 5)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -287,8 +287,10 @@
 	)
 	(pad "1" thru_hole rect
 		(at 6 4 180)
-		(size 4.3688 4)
-		(drill 2.2)
+		(size 4.3688 3.3754)
+		(drill 2.2
+			(offset 0 0.5623)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1016)
