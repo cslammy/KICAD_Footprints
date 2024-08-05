@@ -192,4 +192,15 @@
 		(remove_unused_layers no)
 		(uuid "9153d568-2ecc-465a-94e2-fba9fff2cb86")
 	)
+	(model "D:/Dropbox/KICAD/libraries/3D Freecad/ferrite Bead/FerriteBead 2mm 4.5mm-Body.wrl"
+		(offset
+			(xyz 2.5 0 0)
+		)
+		(scale
+			(xyz 0.38 0.45 0.5)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
 )
