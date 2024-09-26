@@ -452,4 +452,15 @@
 		(thermal_bridge_angle 0)
 		(uuid "2a827328-f2eb-472d-8fdd-50c645668ab4")
 	)
+	(model "D:/Dropbox/KICAD/libraries/3D Freecad/dual concentric alps/dual conc alps-BodyHole.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.5 0.5 0.5)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
 )

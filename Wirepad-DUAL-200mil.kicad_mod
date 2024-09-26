@@ -1,0 +1,206 @@
+(footprint "Wirepad-DUAL-200mil"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "solder Pin_ diameter 1.3mm, hole diameter 1.3mm, length 11.0mm")
+	(tags "solder Pin_ pressfit")
+	(property "Reference" "REF**"
+		(at 2.54 -4.318 0)
+		(layer "F.SilkS")
+		(uuid "f09af089-c756-433e-8d0e-5294655d2022")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Wirepad-DUAL 200mil"
+		(at 3.302 -3.048 0)
+		(layer "F.SilkS")
+		(uuid "ff8443cc-fa85-46c2-a308-9f7b8caf77ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Wirepad-DUAL-200mil"
+		(at 3.302 3.302 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd76536f-44db-40bd-a1d1-3a43e2e96cce")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7804f2c2-7d78-478a-887d-15a4c53c31bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abdbcb18-736e-4108-a456-5acff1458dbb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.286 -2.286)
+		(end 7.366 2.286)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "240550a1-623f-493d-bb52-233e37319a8a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.6 0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0559dfc9-2a3f-4e58-b8eb-c86778ff17e7")
+	)
+	(fp_circle
+		(center 5.08 -0.022)
+		(end 6.68 0.028)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "73a09813-861b-460c-a514-4c56fb7000e3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.8 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "1ae8b187-6b1c-42a8-9c1f-39101970beb6")
+	)
+	(fp_circle
+		(center 5.08 -0.022)
+		(end 6.88 -0.022)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ff9932c7-2675-4b3c-ab2b-e9f21398a583")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.65 -0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3b85e1bd-2543-4424-a60e-3ccc45f372eb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.25 -0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "052e5e46-b5a6-4952-b259-92ef7b543482")
+	)
+	(fp_circle
+		(center 5.08 -0.022)
+		(end 5.73 -0.072)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1be96c33-8b9d-4fe1-8263-549d327099e1")
+	)
+	(fp_circle
+		(center 5.08 -0.022)
+		(end 6.33 -0.072)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "c6d18adb-e8f9-46ca-b3dc-187bcb818bd2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.048 -4.318 0)
+		(layer "User.2")
+		(hide yes)
+		(uuid "5d86067d-6d1a-4a2c-ad7b-0db4529aef4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.6 2.6)
+		(drill 1.1476)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.25)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(clearance 0.0762)
+		(uuid "3106b007-6df2-449f-8479-b49706f8155b")
+	)
+	(pad "2" thru_hole roundrect
+		(at 5.08 -0.022)
+		(size 2.6 2.6)
+		(drill 1.1476)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.25)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(clearance 0.0762)
+		(uuid "858b3be8-eb27-436a-98a2-63ff80e9219e")
+	)
+	(group ""
+		(uuid "16bf7a74-dbdc-4138-8d6a-a1b1315d21b6")
+		(members "3106b007-6df2-449f-8479-b49706f8155b" "858b3be8-eb27-436a-98a2-63ff80e9219e")
+	)
+)
