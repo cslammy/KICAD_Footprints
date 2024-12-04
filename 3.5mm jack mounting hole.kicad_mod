@@ -1,0 +1,121 @@
+(footprint "3.5mm jack mounting hole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "solder Pin_ diameter 1.3mm, hole diameter 1.5mm (loose fit), length 11.0mm")
+	(tags "solder Pin_ loose fit")
+	(property "Reference" "."
+		(at 0 1.800694 0)
+		(layer "User.6")
+		(hide yes)
+		(uuid "968f113d-bd4a-4743-9d99-b9733cee76ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "."
+		(at 0 -2.54 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1abfd985-2c60-4cc2-a2e4-85c0779abffd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "3.5mm jack mounting hole"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "User.6")
+		(hide yes)
+		(uuid "60e7ee7c-9447-4757-b083-599b28087ed0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77158496-132e-4816-b61a-b116c0b04707")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a14328c-d6e9-4e0d-89c9-5e6a33456caf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 3.683 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fbcff9b1-11fe-4fd1-abff-976b9a6eaca3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.65 -0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "ec9d9a0d-d82f-4ce0-b1d3-cde0ffa5b45d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.25 -0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6dff0754-dc83-486a-88b6-7a5c4c66ce24")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 7.112 7.112)
+		(drill 6.35)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5a76adb3-d99d-44b8-a100-06dcf16d4389")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.3mm_L11.0mm_LooseFit.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
