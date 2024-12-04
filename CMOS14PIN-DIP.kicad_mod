@@ -350,4 +350,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "85749d70-7691-4d9c-aaea-d5fbdd377499")
 	)
+	(model "D:/Dropbox/KICAD/libraries/3D Freecad/ICs/DIP-14 N.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
 )
