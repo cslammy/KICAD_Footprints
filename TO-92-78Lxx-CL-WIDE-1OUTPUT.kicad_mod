@@ -6,7 +6,7 @@
 	(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
 	(tags "TO-92L Inline Wide transistor")
 	(property "Reference" "REF**"
-		(at 2.54 -3.56 0)
+		(at 2.54 -3.537811 0)
 		(layer "F.SilkS")
 		(uuid "a0275656-ee77-4ef6-961d-741829c6d5ae")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "TO-92-78Lxx-CL-WIDE-1OUTPUT"
-		(at 2.54 2.79 0)
+		(at 2.54 3.81 0)
 		(layer "F.SilkS")
 		(uuid "e50d001f-74a7-42a5-ab94-bf49f0f74536")
 		(effects
@@ -53,8 +53,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 0.6 1.7)
-		(end 4.45 1.7)
+		(start 0.615 -2.032)
+		(end 4.465 -2.032)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -63,48 +63,26 @@
 		(uuid "f126d3a4-46cc-4e4d-8027-a401199d6ab1")
 	)
 	(fp_arc
-		(start 0.1836 -1.098807)
-		(mid 1.143021 -2.192817)
-		(end 2.54 -2.6)
+		(start -0.259044 -0.508)
+		(mid 0.038023 -1.353818)
+		(end 0.583553 -2.065194)
 		(stroke
-			(width 0.12)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "fd60bfec-c6b3-46c7-89e2-b474fac7f1dc")
+		(uuid "7bc7cead-5909-4fb3-a9c2-67592c5664c3")
 	)
 	(fp_arc
-		(start 0.6 1.7)
-		(mid 0.389183 1.423933)
-		(end 0.217369 1.122045)
+		(start 4.493034 -2.061591)
+		(mid 5.037397 -1.351853)
+		(end 5.334 -0.508)
 		(stroke
-			(width 0.12)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "47f0026f-5cad-48c2-aeca-1b29d953fc78")
-	)
-	(fp_arc
-		(start 2.54 -2.6)
-		(mid 3.936979 -2.192818)
-		(end 4.8964 -1.098807)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7a5556ba-6610-45df-b3a5-7dc94232fd45")
-	)
-	(fp_arc
-		(start 4.842383 1.112264)
-		(mid 4.666594 1.419753)
-		(end 4.45 1.7)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "93dced74-f871-4b17-9e71-652900ddaed5")
+		(uuid "f9309ff7-acee-41c5-82d5-ea89a82f9a05")
 	)
 	(fp_line
 		(start -1 -2.75)
@@ -147,8 +125,8 @@
 		(uuid "bec29c0c-a07c-439f-90da-e7d2678b5363")
 	)
 	(fp_line
-		(start 0.65 1.6)
-		(end 4.4 1.6)
+		(start 0.411 -2.794)
+		(end 4.161 -2.794)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -157,9 +135,9 @@
 		(uuid "ee2d6428-4913-4489-bc39-4c1d2876070a")
 	)
 	(fp_arc
-		(start 0.647182 1.602385)
-		(mid 0.290076 -1.043188)
-		(end 2.54 -2.48)
+		(start 5.08 0)
+		(mid 2.54 2.54)
+		(end 0 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -168,9 +146,9 @@
 		(uuid "aeba7c26-fc1f-4359-84a0-3ce28a60c01f")
 	)
 	(fp_arc
-		(start 2.54 -2.48)
-		(mid 4.787211 -1.049019)
-		(end 4.441103 1.592547)
+		(start 5.345522 0)
+		(mid 2.667131 2.80264)
+		(end -0.254 0.254)
 		(stroke
 			(width 0.1)
 			(type solid)
