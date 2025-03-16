@@ -179,12 +179,12 @@
 		(uuid "dc70415b-f762-4a23-ad26-ed875be953c9")
 	)
 	(pad "1" thru_hole rect
-		(at 5.08 0)
+		(at 0 0)
 		(size 1.5 1.5)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "97a12d3e-04b3-446c-bb2c-53b3da20f8af")
+		(uuid "220ba17f-7d70-48c8-9ccc-f61fa998466c")
 	)
 	(pad "2" thru_hole circle
 		(at 2.54 0)
@@ -195,12 +195,12 @@
 		(uuid "e88a7ef4-c85f-4a13-b36e-b0ce7b1f22c2")
 	)
 	(pad "3" thru_hole circle
-		(at 0 0)
+		(at 5.08 0)
 		(size 1.5 1.5)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "220ba17f-7d70-48c8-9ccc-f61fa998466c")
+		(uuid "97a12d3e-04b3-446c-bb2c-53b3da20f8af")
 	)
 	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92L_Inline_Wide.wrl"
