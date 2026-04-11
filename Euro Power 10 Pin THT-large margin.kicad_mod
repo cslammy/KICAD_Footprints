@@ -1,4 +1,4 @@
-(footprint "Euro Power 10 Pin THT"
+(footprint "Euro Power 10 Pin THT-large margin"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -6,7 +6,7 @@
 	(descr "Through hole straight pin header, 2x05, 2.54mm pitch, double rows")
 	(tags "Through hole pin header THT 2x05 2.54mm double row")
 	(property "Reference" "REF**"
-		(at 1.905 13.97 0)
+		(at 2.54 15.24 0)
 		(layer "F.SilkS")
 		(uuid "d265007b-49a4-48d9-bfde-79b98c7c4727")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "RED STRIPE"
-		(at 1.27 -3.81 0)
+		(at 1.27 -4.445 0)
 		(layer "F.SilkS")
 		(uuid "7fef563b-070b-47ab-870e-60c46a7336a6")
 		(effects
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b559aebf-b101-48ac-aa19-e7630dac90b1")
+		(uuid "f9b87fc7-c6f6-4aa6-85aa-c63604b0edf2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a5dac791-587f-4660-9ef2-6e5d78a2ae8c")
+		(uuid "a8f29e59-4f2e-4402-81a0-c443e6d102c9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -143,8 +143,8 @@
 		(uuid "b328a127-b4ea-465f-b126-218d8d2e858a")
 	)
 	(fp_line
-		(start -1.8 -1.8)
-		(end -1.8 11.95)
+		(start -4.445 -3.175)
+		(end -4.445 13.335)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -153,8 +153,8 @@
 		(uuid "1deaef77-856e-4696-8983-91d9e49f7c8d")
 	)
 	(fp_line
-		(start -1.8 11.95)
-		(end 4.35 11.95)
+		(start -4.445 13.335)
+		(end 6.985 13.335)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -163,8 +163,8 @@
 		(uuid "d811f793-8761-40d0-8ab4-d559783aa795")
 	)
 	(fp_line
-		(start 4.35 -1.8)
-		(end -1.8 -1.8)
+		(start 6.985 -3.175)
+		(end -4.445 -3.175)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -173,8 +173,8 @@
 		(uuid "da0e08a7-feed-4ad9-aa85-677e09d4fea3")
 	)
 	(fp_line
-		(start 4.35 11.95)
-		(end 4.35 -1.8)
+		(start 6.985 13.335)
+		(end 6.985 -3.175)
 		(stroke
 			(width 0.05)
 			(type solid)
