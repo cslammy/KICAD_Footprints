@@ -1,0 +1,127 @@
+(footprint "Wirepad-Chamfered5-larger"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "solder Pin_ diameter 1.3mm, hole diameter 1.3mm, length 11.0mm")
+	(tags "solder Pin_ pressfit")
+	(property "Reference" "J9"
+		(at 0.573135 2.852103 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3c91da32-7677-42a8-8418-355a89151e52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TIP2"
+		(at 0 -3.048 0)
+		(layer "F.SilkS")
+		(uuid "04ff9062-02af-431f-8400-d5648e0351cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69eab53d-13b8-4370-aedb-8f8e1da85c4f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x01, script generated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "493228e1-6186-4746-8509-37d890a3cb8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 2.1 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "37809d5e-cec6-4abf-8ca4-29b6859766bc")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.3 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f9263519-5894-4e44-979f-8c12742c7c69")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.65 -0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d5a6e706-fedd-47a5-9d23-cbc71e9678c5")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.25 -0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c2646e89-0dbf-4b0c-8b32-ccf1ecf25c5d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.4 0)
+		(layer "User.2")
+		(hide yes)
+		(uuid "103e5550-9d74-474f-977b-9a9307b3a521")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3.556 3.556)
+		(drill 1.524)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.25)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(clearance 0.0762)
+		(uuid "e3cc202c-1048-4b21-8d39-8c0fccbbd218")
+	)
+	(embedded_fonts no)
+)
