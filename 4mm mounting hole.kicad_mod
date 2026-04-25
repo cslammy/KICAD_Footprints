@@ -1,0 +1,111 @@
+(footprint "4mm mounting hole"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "solder Pin_ diameter 1.3mm, hole diameter 1.5mm (loose fit), length 11.0mm")
+	(tags "solder Pin_ loose fit")
+	(property "Reference" "."
+		(at 0 1.800694 0)
+		(layer "User.6")
+		(hide yes)
+		(uuid "905dd7b5-9c75-442c-9f04-5383c51e4704")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "."
+		(at 0 -2.54 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62810dac-81a8-4ef3-8218-6890fe1c8b2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "313fae92-d151-4e5f-a42d-0f301648c48f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c0ea69b-7676-4ef4-a84d-3a661c089747")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fbcff9b1-11fe-4fd1-abff-976b9a6eaca3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.65 -0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ec9d9a0d-d82f-4ce0-b1d3-cde0ffa5b45d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.25 -0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6dff0754-dc83-486a-88b6-7a5c4c66ce24")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 4.75 4.75)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5a76adb3-d99d-44b8-a100-06dcf16d4389")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.3mm_L11.0mm_LooseFit.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
