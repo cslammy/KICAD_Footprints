@@ -1,13 +1,13 @@
 (footprint "WQP-PJ301M-12_JACK-EAGLE"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 4.5212 4.7244 180)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "7d6c42ed-1f75-4f43-98fb-ad5b9bc8e562")
+		(uuid "779c12b1-6f54-4ec3-9fe5-e1236cef994c")
 		(effects
 			(font
 				(size 0.93472 0.93472)
@@ -20,19 +20,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "aa84b803-c968-4a01-8a6c-eeec2c176fef")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Footprint" "WQP-PJ301M-12_JACK-EAGLE"
-		(at -0.15 -2.15 0)
-		(unlocked yes)
-		(layer "User.5")
-		(hide yes)
-		(uuid "a2f93964-2f5b-47ac-8e9d-80244cbc03e7")
+		(uuid "e56df2cc-0d34-4142-a992-5c2a98fbb2b8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ebac92f6-1af0-4112-9ece-7525647380d9")
+		(uuid "e2bcd981-d237-4f97-804d-58bc37fc865b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,13 +44,14 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ef4cd490-6cc3-4cf6-96b6-2558e3a431d1")
+		(uuid "94b8181b-3584-4fde-9f59-7944b58685d8")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.5 -6)
 		(end -4 -6)
@@ -407,7 +396,8 @@
 		(thermal_bridge_angle 0)
 		(uuid "b5f959d6-2e18-4fba-bd4d-a5bc5e91c7ec")
 	)
-	(model "D:/Dropbox/KICAD/libraries/3D Freecad/jacks/WQP-PJ398SM.step"
+	(embedded_fonts no)
+	(model "${CLOUD_DIR_3D}/jacks/WQP-PJ398SM.step"
 		(offset
 			(xyz 0 0 0)
 		)
