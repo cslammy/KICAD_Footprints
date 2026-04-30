@@ -8,7 +8,7 @@
 		(at -9.525 -5.715 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "7679fa09-efe3-4796-89d9-3a63f5c7cb07")
+		(uuid "fba5e19d-71e7-42b3-9c00-dc802f87d82f")
 		(effects
 			(font
 				(size 1.1176 1.1176)
@@ -21,7 +21,7 @@
 		(at -10.1 7.65 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "59c8ea60-740f-4af7-afcb-32e191a17089")
+		(uuid "94f5d807-12f3-41a8-bafc-7bddb7de5bf3")
 		(effects
 			(font
 				(size 1.1176 1.1176)
@@ -35,7 +35,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "db3f9fa7-ffdb-4374-9d45-6703fe010adf")
+		(uuid "d9765366-fe94-4b7b-8490-04532a45511d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d0df957c-c426-4e8c-97ff-8bacc35b833e")
+		(uuid "a3b22d0f-7f53-45c8-8003-529a5de20732")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -442,7 +442,7 @@
 		(uuid "2a827328-f2eb-472d-8fdd-50c645668ab4")
 	)
 	(embedded_fonts no)
-	(model "${CLOUD_DIR_3D}/KICAD/libraries/3D Freecad/dual concentric alps/dual conc alps-BodyHole.wrl"
+	(model "${CLOUD_DIR_3D}/dual concentric alps/dual conc alps-BodyHole.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
