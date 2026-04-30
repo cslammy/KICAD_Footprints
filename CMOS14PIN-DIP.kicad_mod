@@ -1,12 +1,12 @@
 (footprint "CMOS14PIN-DIP"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.825 -11.135 0)
 		(layer "F.SilkS")
-		(uuid "46dd80ec-7e3f-4aae-8d95-c1cff890eadd")
+		(uuid "d99255fa-6efe-4d7a-8044-fc7ff533362d")
 		(effects
 			(font
 				(size 1 1)
@@ -14,26 +14,14 @@
 			)
 		)
 	)
-	(property "Value" "SNAPEDA"
+	(property "Value" "CMOS14DIP"
 		(at 0.762 11.43 0)
-		(layer "F.Fab")
-		(uuid "e3897ea9-3bff-4449-a667-2ada4078064c")
+		(layer "F.SilkS")
+		(uuid "09f950fc-c1e3-4005-8d1e-16eed4cf529d")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "CMOS14PIN-DIP"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "312b23f3-5257-43f1-a4bb-cae973bc6f39")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -42,7 +30,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a52e7348-be4b-4fe1-95d5-417a0fd34216")
+		(uuid "999732df-f06b-4cc4-bcfe-798507c685c8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,7 +42,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "445420d6-970a-4be2-b93d-a25cc85fc7d8")
+		(uuid "59299ac5-f53b-40ab-8cfb-e35bb44d4656")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,6 +50,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.3 -9.845)
 		(end 3.3 -9.845)
@@ -129,7 +118,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "e7f59af0-73db-405f-bd97-bbbe4b175eee")
 	)
@@ -220,7 +209,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "50440063-78e0-428a-be98-d5f72638671b")
 	)
@@ -350,7 +339,8 @@
 		(solder_mask_margin 0.102)
 		(uuid "85749d70-7691-4d9c-aaea-d5fbdd377499")
 	)
-	(model "D:/Dropbox/KICAD/libraries/3D Freecad/ICs/DIP-14 N.step"
+	(embedded_fonts no)
+	(model "${CLOUD_DIR_3D}/ICs/DIP-14 N.step"
 		(offset
 			(xyz 0 0 0)
 		)
