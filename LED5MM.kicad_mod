@@ -1,13 +1,13 @@
 (footprint "LED5MM"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "std 5mm THT LED")
 	(property "Reference" "REF**"
 		(at 3.175 -0.5334 0)
 		(layer "F.SilkS")
-		(uuid "3c36a974-4c80-4b19-afe0-80bc7e486876")
+		(uuid "1703fa81-cb47-4c40-99a7-cf0f0e5d38f5")
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -19,7 +19,7 @@
 	(property "Value" "LED5MM"
 		(at 3.2004 1.8034 0)
 		(layer "F.Fab")
-		(uuid "a724be70-66aa-4206-ba67-560e54a48e3d")
+		(uuid "e4930144-b804-4cc8-8a1b-9b7b466e2656")
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -28,24 +28,12 @@
 			(justify left bottom)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7cc8ee61-33c6-4ccc-9eb3-6ea4117e4852")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bea3647e-e2fa-45e4-a6fd-89d00e5889b8")
+		(uuid "d8907c73-cc5d-4063-b24a-0e827eec819c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,13 +45,14 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9fa150d5-0b71-4df7-8f89-1b89109e0636")
+		(uuid "8243ec6d-08ed-442c-9e17-acae0047e25a")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 2.54 1.905)
 		(end 2.54 -1.905)
@@ -92,7 +81,7 @@
 			(width 0.1524)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "bd8f1f81-3e65-4cb7-b80f-53b394eab21c")
 	)
@@ -188,7 +177,8 @@
 		(thermal_bridge_angle 45)
 		(uuid "011a7c53-cfe5-4b11-9c3c-4e5268da68ae")
 	)
-	(model "D:/Dropbox/KICAD/libraries/3D Freecad/LED/LED_Round_Clear_D5.0mm.wrl"
+	(embedded_fonts no)
+	(model "${CLOUD_DIR_3D}/LED/LED_Round_Clear_D5.0mm.wrl"
 		(offset
 			(xyz 1.27 0 -1.27)
 		)
