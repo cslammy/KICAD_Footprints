@@ -1,14 +1,14 @@
 (footprint "35RAPCVAV"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "35RAPC2AV mono 3.5mm jack w switch")
 	(property "Reference" "REF**"
 		(at 7.62 -12.065 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "f1141dc8-f464-4e34-8e3a-3252d5eb54e3")
+		(uuid "9c2fb070-0065-4fa7-b9e1-99c6163575be")
 		(effects
 			(font
 				(size 1.1684 1.1684)
@@ -21,19 +21,7 @@
 		(at 4.445 -12.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ef909a13-6420-4d5e-9201-cabbd34c5481")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Footprint" "35RAPCVAV"
-		(at 6.985 -11.43 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1e63a773-8520-49d9-b56c-2d7f1a1d5b20")
+		(uuid "e495c697-6e18-4fe1-b3ad-aaca4fab9530")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8a833b02-b379-42da-b397-f549cb8f6eb9")
+		(uuid "afd2d5ee-0ff8-4d1f-9913-1dd04a5df87e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,13 +45,14 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6c651e2f-8f6a-4da8-baab-e1ebae6f4388")
+		(uuid "f88bade1-60ae-4f4c-a562-bcd82280a633")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 1 -10.5)
 		(end 1 5)
@@ -121,7 +110,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "237742ac-10bc-43b5-84b1-e8173108c617")
 	)
@@ -317,7 +306,8 @@
 		(thermal_bridge_angle 0)
 		(uuid "33e9e530-6156-4d30-8f6a-2b4001cebf77")
 	)
-	(model "D:/Dropbox/KICAD/libraries/3D Freecad/jacks/35RAP2AV_CD.wrl"
+	(embedded_fonts no)
+	(model "${CLOUD_DIR_3D}/jacks/35RAP2AV_CD.wrl"
 		(offset
 			(xyz 6.35 1.905 0)
 		)

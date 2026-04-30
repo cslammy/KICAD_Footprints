@@ -1,14 +1,14 @@
 (footprint "35RAPCVAV-sqpad2"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "35RAPC2AV mono 3.5mm jack w switch")
 	(property "Reference" "REF**"
 		(at 7.62 -12.065 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "f1141dc8-f464-4e34-8e3a-3252d5eb54e3")
+		(uuid "d084cba7-d277-4c5f-bfc5-f1589348ca25")
 		(effects
 			(font
 				(size 1.1684 1.1684)
@@ -21,19 +21,7 @@
 		(at 4.445 -12.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ef909a13-6420-4d5e-9201-cabbd34c5481")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Footprint" "35RAPCVAV-sqpad2"
-		(at 6.985 -11.43 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1e63a773-8520-49d9-b56c-2d7f1a1d5b20")
+		(uuid "8eb311dc-8a09-4a68-90ca-66b62f7ad4e3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8a833b02-b379-42da-b397-f549cb8f6eb9")
+		(uuid "b2281075-4948-4e4c-aa58-78d9049d3657")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6c651e2f-8f6a-4da8-baab-e1ebae6f4388")
+		(uuid "c3518163-a53e-4094-99e4-4dd3af7d92fd")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -65,6 +53,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 1 -10.5)
 		(end 1 5)
@@ -73,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e71b7dee-ba73-4f43-909d-610849575288")
+		(uuid "d6971378-5ac4-432e-bb5a-af8cefe44da2")
 	)
 	(fp_line
 		(start 1 5)
@@ -83,7 +72,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "e8bd9287-a983-49c6-9a92-9b16f07580ee")
+		(uuid "dd02843b-7845-4fe6-82c4-c052e24d2471")
 	)
 	(fp_line
 		(start 11 -10.5)
@@ -93,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c1be3109-40f3-4293-a992-a9f8f52649c0")
+		(uuid "f30c198f-9b4a-4dc2-ae1c-5c0f9826f30b")
 	)
 	(fp_line
 		(start 11 5)
@@ -103,7 +92,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "5a471930-3523-4285-94db-1b74743fd114")
+		(uuid "3702742f-134f-4fe6-8aa8-4f2a1cb8dfba")
 	)
 	(fp_line
 		(start 11 5)
@@ -113,7 +102,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f8834a4b-ec57-423a-868a-b0a10f0291db")
+		(uuid "3525bc25-9830-4379-985a-768ca16b8a93")
 	)
 	(fp_rect
 		(start 0.635 -10.711)
@@ -122,9 +111,9 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "237742ac-10bc-43b5-84b1-e8173108c617")
+		(uuid "a24ab5df-ad6c-44db-9348-2a7cf3723c26")
 	)
 	(fp_line
 		(start 3 5)
@@ -134,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "52d91c11-c717-458a-b88e-d3aecaf1c2d2")
+		(uuid "9add1797-69ec-498b-adf4-c9b0ddf4d214")
 	)
 	(fp_line
 		(start 3 7)
@@ -144,7 +133,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "36fb59ad-e31a-4493-98f2-59875aa33cb1")
+		(uuid "dce49676-e528-4960-b431-8a06da186def")
 	)
 	(fp_line
 		(start 3 7)
@@ -154,7 +143,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6e7b062a-0dfe-4749-b46d-f5a6473619ee")
+		(uuid "188be925-fc90-45b6-a0d0-6706b2bf5b45")
 	)
 	(fp_line
 		(start 3 8)
@@ -164,7 +153,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "331795e7-6fff-4218-997a-9c46b01b11f2")
+		(uuid "7044a2dd-0162-43ae-accd-c1fefa0fae47")
 	)
 	(fp_line
 		(start 3 9)
@@ -174,7 +163,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b3281b4e-06b1-4ed6-8968-beb22b14e06f")
+		(uuid "7ce2ae89-1a0e-464d-9408-f82808dd554a")
 	)
 	(fp_line
 		(start 3 9)
@@ -184,7 +173,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d901a652-0fed-487f-af0c-3305057c5309")
+		(uuid "d4c27f2e-cfe3-4d2a-a4b7-a1d0d63ad80d")
 	)
 	(fp_line
 		(start 3 10)
@@ -194,7 +183,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b7598e7b-fdf8-4a38-bfd6-f8d0d432dc51")
+		(uuid "032ee967-4648-4c27-830f-ea700f83a8fa")
 	)
 	(fp_line
 		(start 3 11)
@@ -204,7 +193,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "82b08369-f8f0-47a0-844c-fb36620c7b32")
+		(uuid "3dd9e46a-0828-4dcc-b20f-0c186e90ed60")
 	)
 	(fp_line
 		(start 9 6)
@@ -214,7 +203,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "412b18ff-e6d0-4944-aadc-f80b6ebdb953")
+		(uuid "e61b2c0e-bcdf-433b-8c74-f2247305f755")
 	)
 	(fp_line
 		(start 9 7)
@@ -224,7 +213,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "23896a6b-d49e-4f40-88ca-884fffc36470")
+		(uuid "f6ff62cc-0a08-4ad7-a7cb-29c7fd09e197")
 	)
 	(fp_line
 		(start 9 7)
@@ -234,7 +223,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "96c02839-7e0a-45c1-baa5-84c260e48032")
+		(uuid "9c6985d0-d278-4e2f-a021-c2e5ca182bd7")
 	)
 	(fp_line
 		(start 9 8)
@@ -244,7 +233,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "eacceb35-7920-413b-827e-95f8c33006a7")
+		(uuid "1fa64fd8-37d3-43f0-8b29-8f5f11761323")
 	)
 	(fp_line
 		(start 9 9)
@@ -254,7 +243,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6fb91f5b-73c1-4071-b318-924ef0f102fc")
+		(uuid "ee0ea2b2-424a-45d0-8507-ce9b48d8fac7")
 	)
 	(fp_line
 		(start 9 9)
@@ -264,7 +253,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "90a63db8-09ac-4af9-be7c-57807a4a6b13")
+		(uuid "a048c0b9-0869-4483-a8ca-4a3e308f4bbb")
 	)
 	(fp_line
 		(start 9 10)
@@ -274,7 +263,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a5550cb0-14b8-4833-8a18-1819c38c9c5d")
+		(uuid "b8af464a-932d-4669-be97-7afb692e0711")
 	)
 	(fp_line
 		(start 9 11)
@@ -284,7 +273,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c9c3dd4d-7ffb-42d3-ab28-ad8ba672f6b5")
+		(uuid "4ff86706-d817-4c4d-b26f-5341fc55cdc8")
 	)
 	(pad "1" thru_hole rect
 		(at 6 4 180)
@@ -296,7 +285,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "c079aab6-91b6-4bdc-b858-df28dde4563d")
+		(uuid "8fe02ae3-6fc8-4f1f-935f-9f091208f908")
 	)
 	(pad "2" thru_hole oval
 		(at 5.9 -2 180)
@@ -306,7 +295,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "390d0270-9bed-4b9e-b544-ddc5e7635584")
+		(uuid "6df990b3-edc3-44f7-9fe7-120ea7fdb409")
 	)
 	(pad "3" thru_hole oval
 		(at 6 -8 180)
@@ -316,9 +305,10 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "33e9e530-6156-4d30-8f6a-2b4001cebf77")
+		(uuid "4c74d656-5468-4ab3-b2f9-81423c5d9bc6")
 	)
-	(model "D:/Dropbox/KICAD/libraries/3D Freecad/jacks/35RAP2AV_CD.wrl"
+	(embedded_fonts no)
+	(model "${CLOUD_DIR_3D}/jacks/35RAP2AV_CD.wrl"
 		(offset
 			(xyz 6.35 1.905 0)
 		)
