@@ -14,11 +14,13 @@ Note--footprints that come with Kicad are read only.
 Creating a new library for imported footprints:
 https://learn.sparkfun.com/tutorials/beginners-guide-to-kicad/creating-a-custom-kicad-footprint-library
 
+Note: 3D files are organized in subfolders by type (jacks, caps, IC's etc) which deviates from the Kicad norm.
+
 Getting 3D models to work  
 --I have already changed any wrl's to step (for Kicad 10) \
 --Get the 3D model zip from the "3D_MODELS" cslammy repo \
 --Unzip it somewhere \
 --Create a new Conf path in Kicad called ${CLOUD_DIR_3D} \
 --Point the Conf path to where you unzipped the 3D files\
---3D files are organized by type (POT, JACK, SWITCH) etc.
+ 
 
